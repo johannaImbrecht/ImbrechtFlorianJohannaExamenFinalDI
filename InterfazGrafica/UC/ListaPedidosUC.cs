@@ -1,4 +1,5 @@
-﻿using ObjetosTransferencia.DTO;
+﻿using BusinessLogicLayer;
+using ObjetosTransferencia.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -19,7 +20,8 @@ namespace InterfazGrafica.UC
         {
             InitializeComponent();
             // TODO: haz la peticion de los clientes y asociala a la lista y cargalo en el DataGridView
-         
+            listaPedidos = ControladorBLL.ListarPedidosCliente(nombreCliente);
+            this.dGV_Pedidos.DataSource = listaPedidos;
         }
 
         public List<PedidoDTO> ListaPedidos { get => listaPedidos; set => listaPedidos = value; }

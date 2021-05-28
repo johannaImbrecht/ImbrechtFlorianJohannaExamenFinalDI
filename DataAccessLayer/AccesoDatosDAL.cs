@@ -6,6 +6,7 @@ using System.Text;
 
 namespace DataAccessLayer
 {
+
     public static class AccesoDatosDAL
     {
         #region Atributos
@@ -30,8 +31,8 @@ namespace DataAccessLayer
         #endregion
 
         #region Constructores
-
-        #endregion
+                
+               #endregion
 
         #region Propiedades
 
@@ -85,6 +86,9 @@ namespace DataAccessLayer
                 while (dataReader.Read())
                 {
                     // TODO: parsea los datos a la lista de ClientesDTO
+                    String idCliente = (string)dataReader.GetString(0);
+                    String NombreCliente = (string)dataReader.GetString(1);
+                    listaClientes.Add(new ClienteDTO(idCliente, NombreCliente));
 
                 }
 
@@ -129,8 +133,14 @@ namespace DataAccessLayer
 
                 while (dataReader.Read())
                 {
-                    //TODO: creamos un pedido, parseamos y añadimos a la lista de clientes
-
+                    PedidoDTO p = new PedidoDTO();
+                    p.IdPedido = (int)dataReader.GetInt32(0);
+                    p.IdCliente = dataReader.GetValue(1).ToString();
+                    p.FechaPedido = DateTime.Parse(dataReader.GetValue(3).ToString());
+                    p.FechaEnvio = DateTime.Parse(dataReader.GetValue(4).ToString());
+                    p.PrecioEnvio = Double.Parse(dataReader.GetValue(7).ToString());
+                    p.Direccion = (string) dataReader.GetString(9);
+                    listaPedidos.Add(p);
 
                 }
 

@@ -24,3 +24,12 @@ C:\Users\admin\Downloads\Solucion_examen_mayo\Plantilla_MVC\ObjetosTransferencia
 C:\Users\admin\Downloads\Solucion_examen_mayo\Plantilla_MVC\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.csproj.CoreCompileInputs.cache
 C:\Users\admin\Downloads\Solucion_examen_mayo\Plantilla_MVC\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.dll
 C:\Users\admin\Downloads\Solucion_examen_mayo\Plantilla_MVC\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.pdb
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\bin\Debug\netstandard2.0\ObjetosTransferencia.deps.json
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\bin\Debug\netstandard2.0\ObjetosTransferencia.dll
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\bin\Debug\netstandard2.0\ObjetosTransferencia.pdb
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.AssemblyInfo.cs
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.dll
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\ObjetosTransferencia\obj\Debug\netstandard2.0\ObjetosTransferencia.pdb

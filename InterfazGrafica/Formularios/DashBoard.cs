@@ -1,4 +1,6 @@
-﻿using InterfazGrafica.UC;
+﻿using BusinessLogicLayer;
+using InterfazGrafica.UC;
+using ObjetosTransferencia.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,8 +23,9 @@ namespace InterfazGrafica.Formularios
         private ListaPedidosUC listaPedidos;
 
         private ResumenUC resumen;
+        
         #endregion
-
+        
         #region Constructor
 
         public DashBoard()
@@ -30,6 +33,7 @@ namespace InterfazGrafica.Formularios
             InitializeComponent();
 
             BienvenidaUC = new UC.BienvenidaUC();
+            
             panel_BaseDashboard.Controls.Add(BienvenidaUC);
 
         }
@@ -61,8 +65,10 @@ namespace InterfazGrafica.Formularios
         {
 
             // TODO: crea el UC ClientesUC y cargalo en el Dashboard
-
-
+            clientes = new ClientesUC();
+            panel_BaseDashboard.Controls.Remove(BienvenidaUC);
+            this.clientes.ClienteSeleccionado += new ClientesUC.ClickButton(ClientesUC_ClienteSeleccionado);
+            panel_BaseDashboard.Controls.Add(clientes);
         }
 
         /// <summary>
@@ -71,7 +77,10 @@ namespace InterfazGrafica.Formularios
         void ClientesUC_ClienteSeleccionado()
         {
             // TODO: Habilita el boton lista pedidos
-            
+            //listaPedidos = new ListaPedidosUC();
+            //but_ListaPedidos.Enabled(true);
+            but_ListaPedidos.Enabled = true;
+
         }
 
         /// <summary>
@@ -93,10 +102,6 @@ namespace InterfazGrafica.Formularios
 
 
         }
-
-
-
-
 
 
         #endregion

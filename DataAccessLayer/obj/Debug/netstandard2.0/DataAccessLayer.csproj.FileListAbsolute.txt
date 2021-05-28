@@ -34,3 +34,15 @@ C:\Users\admin\Downloads\Solucion_examen_mayo\Plantilla_MVC\DataAccessLayer\obj\
 C:\Users\admin\Downloads\Solucion_examen_mayo\Plantilla_MVC\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete
 C:\Users\admin\Downloads\Solucion_examen_mayo\Plantilla_MVC\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
 C:\Users\admin\Downloads\Solucion_examen_mayo\Plantilla_MVC\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.deps.json
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\bin\Debug\netstandard2.0\DataAccessLayer.pdb
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\bin\Debug\netstandard2.0\ObjetosTransferencia.dll
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\bin\Debug\netstandard2.0\ObjetosTransferencia.pdb
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.dll
+C:\Users\admin\Documents\Git\ImbrechtFlorianJohannaExamenFinalDI\DataAccessLayer\obj\Debug\netstandard2.0\DataAccessLayer.pdb

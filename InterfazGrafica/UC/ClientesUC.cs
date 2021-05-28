@@ -46,6 +46,7 @@ namespace InterfazGrafica.UC
                 this.comboBox_Clientes.Items.Add(cliente.NombreCliente);
 
             }
+            ;
 
         }
         #endregion
@@ -83,8 +84,8 @@ namespace InterfazGrafica.UC
 
             }
         }
-        #endregion
 
+        #endregion
 
     }
 }

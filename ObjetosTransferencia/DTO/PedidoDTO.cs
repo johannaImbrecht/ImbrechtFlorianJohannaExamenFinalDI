@@ -17,6 +17,7 @@ namespace ObjetosTransferencia.DTO
         #endregion
 
         #region Constructores
+
         
 
         public PedidoDTO(int idPedido, string idCliente, DateTime fechaPedido, DateTime fechaEnvio, double precioEnvio, string direccion)

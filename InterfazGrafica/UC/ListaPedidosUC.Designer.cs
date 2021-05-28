@@ -56,6 +56,6 @@ namespace InterfazGrafica.UC
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dGV_Pedidos;
+        public System.Windows.Forms.DataGridView dGV_Pedidos;
     }
 }
